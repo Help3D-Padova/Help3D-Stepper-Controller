@@ -1,3 +1,5 @@
+<img width="949" height="504" alt="image" src="https://github.com/user-attachments/assets/2f551272-4236-4500-badf-cb96db0bcd59" />
+
 Caricare su ATMEGA2560 o ATMEGA328P lo sketch "Stepper_controller.ino". Rispettare i PIN di collegamento:
 
 const int STEP_PIN = 9; // è il pin anche chiamato PULSE
@@ -7,6 +9,8 @@ const int ENA_PIN  = 10; // non serve collegarlo
 Per poter utilizzare il programma è necessario installare PYTHON https://www.python.org/.
 
 Per avviare il programma basta solo aprire il file "main.py" e si avvierà il tutto.
+
+<img width="669" height="751" alt="image" src="https://github.com/user-attachments/assets/8580163e-35b8-4059-a3aa-3e060eb23734" />
 
 La porta seriale viene rilevata in automatico, selezionarla e cliccare su "CONNETTI".
 
