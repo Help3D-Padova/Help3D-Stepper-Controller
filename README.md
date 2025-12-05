@@ -1,6 +1,6 @@
 <img width="949" height="504" alt="image" src="https://github.com/user-attachments/assets/2f551272-4236-4500-badf-cb96db0bcd59" />
 
-Caricare su ATMEGA2560 o ATMEGA328P lo sketch "Stepper_controller.ino". Rispettare i PIN di collegamento:
+Caricare su ATMEGA2560 o ATMEGA328P lo sketch **"Stepper_controller.ino"**. Rispettare i PIN di collegamento:
 
 const int STEP_PIN = 9; // è il pin anche chiamato PULSE
 const int DIR_PIN  = 8;
@@ -14,15 +14,17 @@ Per avviare il programma basta solo aprire il file "main.py" e si avvierà il tu
 
 La porta seriale viene rilevata in automatico, selezionarla e cliccare su "CONNETTI".
 
-Ricordarsi di selezionare il microstepping impostato nel driver fisico del motore.Il calcolo della velocità massima raggiungibile è dato dal microstepping e dei limiti imposti dal microcontrollore ATMEGA2560
+Ricordarsi di selezionare il microstepping impostato nel driver fisico del motore. 
+Il calcolo della velocità massima raggiungibile è dato dal microstepping e dei limiti imposti dal microcontrollore ATMEGA2560
 
-Il resto dell'interfaccia è abbastanza intuitivo, al posto dei pulsanti presenti nell'interfaccia è possibile utilizzare: 
+Il resto dell'interfaccia è abbastanza intuitivo, al posto dei pulsanti presenti nell'interfaccia è possibile utilizzare:
+
 - Freccia SU: aumenta velocità
 - Freccia GIU': diminuisce velocità
 - Freccia DX: rotazione oraria
 - Freccia SX: rotazione anti-oraria
 - Barra spaziatrice: start/stop motore
 
-Se si disconnette la seriale il motore si ferma in automatico. La stessa cosa se si prova a cambiare il microstepping da interfaccia
+Se si disconnette la seriale il motore si ferma in automatico. La stessa cosa se si prova a cambiare il microstepping dal menù a tendina.
 
-DISCLAIMER: utilizzare a proprio rischio e pericolo, questo software è da considerarsi funzionante ma non posso garantire al 100% che possa funzionare per tutte le schede in commercio. Per qualsiasi danno arrecato alla tua attrezzatura o persona non potrò ritenermi in alcun modo responsabile.
+**DISCLAIMER:** utilizzare a proprio rischio e pericolo, questo software è da considerarsi funzionante ma non posso garantire al 100% che possa funzionare per tutte le schede in commercio. Per qualsiasi danno arrecato alla tua attrezzatura o persona non potrò ritenermi in alcun modo responsabile.
